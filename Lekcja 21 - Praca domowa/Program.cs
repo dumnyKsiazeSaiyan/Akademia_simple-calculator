@@ -67,7 +67,6 @@ namespace Lekcja_21___Praca_domowa
                 {
                     Console.WriteLine("Podano nieprawidłowy dzień, spróbuj ponownie\n");
                     continue;
-
                 }
 
                 return day;
