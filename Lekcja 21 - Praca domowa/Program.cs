@@ -62,7 +62,7 @@ namespace Lekcja_21___Praca_domowa
             {
                 Console.WriteLine("Podaj swój dzień urodzenia");
                 if (!int.TryParse(Console.ReadLine(), out int day)
-                    || day > DateTime.DaysInMonth(year, month)
+                    || day > DateTime.DaysInMonth(year, month) 
                     || day < 1)
                 {
                     Console.WriteLine("Podano nieprawidłowy dzień, spróbuj ponownie\n");
